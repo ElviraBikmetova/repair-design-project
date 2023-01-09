@@ -415,6 +415,8 @@ img {
 .card__text {
   margin: -128px 0 0 31px;
   text-align: start;
+  position: relative;
+  z-index: 1;
 }
 .card__list {
   width: 330px;
