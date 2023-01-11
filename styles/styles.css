@@ -456,3 +456,49 @@ img {
   padding: 17px 0;
   margin-top: -28px;
 }
+
+.container-request {
+  display: flex;
+}
+.request-left {
+  position: relative;
+}
+.request__info {
+  position: absolute;
+  top: 117px;
+  left: 249px;
+}
+.request__conditions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 86px;
+}
+.request__condition {
+  display: flex;
+  column-gap: 8px;
+}
+.condition-num {
+  width: 42px;
+  height: 42px;
+  background: #E3B873;
+  border-radius: 50%;
+  border: 8px solid #FFFFFF;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+}
+.condition-num p {
+  font-family: 'Yeseva One';
+  font-size: 18px;
+  line-height: 1.39;
+  color: #FFFFFF;
+}
+.request__condition > p {
+  font-size: 14px;
+  line-height: 1.36;
+  color: #363636;
+  display: flex;
+  align-items: center;
+}
