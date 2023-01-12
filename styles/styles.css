@@ -463,12 +463,13 @@ img {
 .request-left {
   position: relative;
 }
+.request-left img{
+  margin-left: -102px;
+}
 .request__info {
   position: absolute;
   top: 117px;
-  left: 249px;
-}
-.request__conditions {
+  left: 147px;
   display: flex;
   flex-direction: column;
   row-gap: 86px;
@@ -501,4 +502,10 @@ img {
   color: #363636;
   display: flex;
   align-items: center;
+}
+.request-right form {
+  width: 506px;
+  height: 509px;
+  background: #000;
+  color: #FFFFFF;
 }
