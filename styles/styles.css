@@ -464,12 +464,12 @@ img {
   position: relative;
 }
 .request-left img{
-  margin-left: -102px;
+  transform: translate(-102px, 0px);
 }
 .request__info {
   position: absolute;
   top: 117px;
-  left: 147px;
+  left: 139px;
   display: flex;
   flex-direction: column;
   row-gap: 86px;
@@ -479,8 +479,8 @@ img {
   column-gap: 8px;
 }
 .condition-num {
-  width: 42px;
-  height: 42px;
+  width: 57px;
+  height: 57px;
   background: #E3B873;
   border-radius: 50%;
   border: 8px solid #FFFFFF;
@@ -488,7 +488,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-sizing: content-box;
 }
 .condition-num p {
   font-family: 'Yeseva One';
@@ -503,9 +502,26 @@ img {
   display: flex;
   align-items: center;
 }
+.request-right {
+  padding-top: 117px;
+}
 .request-right form {
+  padding: 28px 49px;
   width: 506px;
   height: 509px;
   background: #000;
   color: #FFFFFF;
+}
+.request-right .form-name {
+  width: 100%;
+}
+.request-right .label-name,
+ .request-right .label-phone,
+ .request-right .label-email {
+  font-size: 13px;
+  line-height: 1.62;
+  color: rgba(255, 255, 255, 0.5);
+}
+.request-right input {
+  width: 100%;
 }
