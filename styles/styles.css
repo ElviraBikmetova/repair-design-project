@@ -965,7 +965,7 @@ footer {
   display: none;
 }
 
-@media (max-width:1300px) {
+@media (max-width:768px) {
   .container {
     width: 100%;
     max-width: 100%;
