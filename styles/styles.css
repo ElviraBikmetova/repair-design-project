@@ -216,7 +216,7 @@ img {
 }
 #tab-btn-1::before {
   content: "";
-  background: url(/images/arrow-left.svg);
+  background: url(../images/arrow-left.svg);
   width: 41px;
   height: 13px;
   position: absolute;
@@ -231,7 +231,7 @@ img {
 }
 #tab-btn-3::after {
   content: "";
-  background: url(/images/arrow-right.svg);
+  background: url(../images/arrow-right.svg);
   width: 41px;
   height: 13px;
   position: absolute;
@@ -358,6 +358,9 @@ img {
 }
 .first-checkbox {
   display: inline-block;
+}
+.first-checkbox.first-checkbox--mobile {
+  display: none;
 }
 .first-checkbox .text {
   font-size: 14px;
@@ -634,7 +637,7 @@ img {
   margin-bottom: 240px;
 }
 .realize-fantasies {
-  background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%), url('/images/realize.png') center / cover no-repeat;
+  background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%), url('../images/realize.png') center / cover no-repeat;
   padding: 137px 0 97px;
   margin-bottom: 110px;
 }
@@ -724,7 +727,7 @@ section.our-clients .title:after {
   position: absolute;
   width: 114px;
   height: 28px;
-  background: url('/images/clients/after.png') center / cover no-repeat;
+  background: url('../images/clients/after.png') center / cover no-repeat;
   top: calc(100% + 13px);
   left: 50%;
   transform: translateX(-50%);
@@ -800,11 +803,11 @@ section.our-clients .subtitle {
   background-repeat: no-repeat;
 }
 .our-clients .clients-list .client .client-footer p.meters {
-  background-image: url('/images/clients/meters.svg');
+  background-image: url('../images/clients/meters.svg');
   border-right: 1px solid;
 }
 .our-clients .clients-list .client .client-footer p.days {
-  background-image: url('/images/clients/days.svg');
+  background-image: url('../images/clients/days.svg');
   min-width: 156px;
 }
 .any-questions {
@@ -919,7 +922,7 @@ section.our-clients .subtitle {
 .contact {
   padding-top: 274px;
   padding-bottom: 65px;
-  background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url('/images/contacts.png') right bottom / cover no-repeat;
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url('../images/contacts.png') right bottom / cover no-repeat;
   margin-top: -230px;
 }
 
